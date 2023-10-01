@@ -3,7 +3,7 @@ import random
 
 def generate_verification_code():
     """
-    Генерация кода авторизации
+        Генерация кода авторизации
     """
     return ''.join([random.choice(list('1234567890')) for x in range(4)])
 
